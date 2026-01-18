@@ -1,0 +1,18 @@
+kraken-os-ultra/
+├── build.sh                          # Главный скрипт сборки
+├── config/
+│   ├── torrc                        # Конфигурация Tor
+│   ├── grub.cfg                     # Конфигурация GRUB
+│   └── sysctl.conf                  # Hardening параметры
+├── images/
+│   ├── logo.png                     # Логотип Kraken
+│   └── wallpaper.png                # Обои рабочего стола
+├── modules/
+│   ├── kraken-modules.sh            # Дополнительные модули
+│   ├── vm-isolation/
+│   │   ├── install.sh               # Установка VM-изоляции
+│   │   ├── quick-deploy.sh          # Быстрое развертывание
+│   │   └── network-manager.sh       # Менеджер сетей
+│   └── container-isolation/
+│       └── fallback.sh              # Fallback изоляция
+└── install.sh                       # Установщик для пользователей
